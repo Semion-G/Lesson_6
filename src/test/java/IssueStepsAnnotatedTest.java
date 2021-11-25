@@ -26,7 +26,7 @@ public class IssueStepsAnnotatedTest {
     @Link(name = "GitHub", url = "https://github.com")
 
     @Test
-    public void selenideListenerTest() {
+    public void selenideStepsTest() {
         steps.openMainPage();
         steps.searchForRepository(REPOSITORY);
         steps.goToRepository(REPOSITORY);

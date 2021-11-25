@@ -22,7 +22,7 @@ public class IssueListenerTest {
     @Link(name = "GitHub", url = "https://github.com")
 
     @Test
-    public void selenideListenerTest() {
+    public void selenideTest() {
 
         SelenideLogger.addListener("allure", new AllureSelenide());
 

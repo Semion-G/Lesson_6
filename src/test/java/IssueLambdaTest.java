@@ -24,7 +24,7 @@ public class IssueLambdaTest {
     @Link(name = "GitHub", url = "https://github.com")
 
     @Test
-    public void selenideListenerTest() {
+    public void selenideLambdaTest() {
 
         step("Открываем главную страницу", () -> {
             open("https://github.com");
